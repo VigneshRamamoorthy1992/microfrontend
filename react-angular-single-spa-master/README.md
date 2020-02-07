@@ -18,3 +18,5 @@ npm start
 
 #### Open `http://localhost:9090` in browser
 
+
+![example](https://raw.githubusercontent.com/VigneshRamamoorthy1992/microfrontend/edit/master/react-angular-single-spa-master/example.png)
