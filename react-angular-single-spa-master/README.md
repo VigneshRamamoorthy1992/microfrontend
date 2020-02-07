@@ -4,7 +4,7 @@ This is the code for tutorial posted on [https://ivanjov.com/micro-frontends-how
 ## Running the app
 #### Clone the code 
 ```bash
-git clone https://github.com/IvanJov/react-angular-single-spa.git && cd react-angular-single-spa
+git clone https://github.com/VigneshRamamoorthy1992/microfrontend.git && cd react-angular-single-spa
 ```
 
 #### Install dependencies
@@ -17,8 +17,4 @@ npm install
 npm start
 ```
 
-#### Open `http://localhost:9090/#/` in browser
-
-You should see something like this:
-
-![example](https://raw.githubusercontent.com/IvanJov/react-angular-single-spa/master/example.png)
+#### Open `http://localhost:9090` in browser
