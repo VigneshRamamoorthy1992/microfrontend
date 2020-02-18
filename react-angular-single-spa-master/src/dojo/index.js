@@ -3,7 +3,7 @@ import App from './App.ts';
 import { v, w } from '@dojo/framework/core/vdom';
 import renderer from '@dojo/framework/core/vdom';
 
-const reactLifecycles = singleSpaDojo({
+const dojoLifecycles = singleSpaDojo({
     renderer,
     v,
     w,
@@ -12,8 +12,8 @@ const reactLifecycles = singleSpaDojo({
     }
 })
 
-export const bootstrap = props => reactLifecycles.bootstrap(props)
+export const bootstrap = props => dojoLifecycles.bootstrap(props)
 
-export const mount = props => reactLifecycles.mount(props)
+export const mount = props => dojoLifecycles.mount(props)
 
-export const unmount = props => reactLifecycles.unmount(props)
+export const unmount = props => dojoLifecycles.unmount(props)
