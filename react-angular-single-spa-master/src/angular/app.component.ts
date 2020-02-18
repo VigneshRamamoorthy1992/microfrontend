@@ -25,6 +25,8 @@ export default class AppComponent {
 
   disableForm() {
     this.showForm = false;
+    // this.changeDetector.detectChanges();
+    console.log('form: ', this.showForm);
   }
 
   returnMessageToReactWhenReceived(obj: any) {

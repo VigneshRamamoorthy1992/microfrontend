@@ -5,5 +5,6 @@ const hashPrefix = prefix => location => location
 
 registerApplication('react', () => import('../react/index.js'), hashPrefix('/'))
 registerApplication('angular', () => import('../angular/index.js'), hashPrefix('/'))
+registerApplication('dojo', () => import('../dojo/index.js'), hashPrefix('/'))
 
 start()
